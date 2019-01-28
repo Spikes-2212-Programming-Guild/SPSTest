@@ -53,7 +53,7 @@ public class OI {
 			Robot.right.reset();
 			Robot.imu.reset();
 		}, Robot.handler));
-		leftButton.whenPressed(new SetPosition(2, 2, 45, () -> {
+		rightButton.whenPressed(new SetPosition(2, 2, 45, () -> {
 			Robot.left.reset();
 			Robot.right.reset();
 			Robot.imu.reset();
